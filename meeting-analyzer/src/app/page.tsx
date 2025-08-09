@@ -162,8 +162,8 @@ export default function Home() {
         </main>
 
         {/* 푸터 */}
-        <footer className="text-center mt-20 text-gray-500 text-sm">
-          <p>© 2024 MeetingIQ. AI를 활용한 미팅 분석 서비스</p>
+<footer className="text-center mt-20 text-gray-600 text-sm">
+          <p>© 2025 BizBee. AI를 활용한 미팅 분석 서비스</p>
         </footer>
       </div>
     </div>
