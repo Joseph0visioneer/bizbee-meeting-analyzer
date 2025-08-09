@@ -1,0 +1,11 @@
+[workflows]
+runButton = "Run Meeting Analyzer"
+
+[[workflows.workflow]]
+name = "Run Meeting Analyzer"
+author = 46177818
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd meeting-analyzer && npm install && npm run dev -- --port 5000 --hostname 0.0.0.0"
